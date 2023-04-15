@@ -2,9 +2,7 @@
 
 ![picture alt](https://media.publit.io/file/Landslide/Landslide-Background.png "Landslide")
 
-The Landslide Network is an Avalanche Subnet which decreases the finality of Tendermint consensus, and will port over the majority of the Cosmos and Terra ecosystems via an opensource Cosmwasm SDK to run any Tendermint-based dApp natively within the AVAX ecosystem.
-
-Finality on Tendermint will be reduced to subsecond.
+The Landslide Network is an IBC-enabled Avalanche Subnet which allow any ComsmWasm-based dapp to run natively on Avalanche. This means that dApps like Osmosis (on Osmosis), WYND (on Juno), and Helix (Injective) will be able to run their software stack natively on Avalanche and access new liquidity and new users.
 
 This new Cosmwasm SDK can be used to develop games, AMMs, and other dapps that require high throughput and scalability that are currently unavailable on Cosmos or Terra due to the slow finality of Tendermint consensus.
 
