@@ -38,3 +38,30 @@ With a Tendermint module and Avalanche consensus, now the Cosmos and Terra ecosy
 * Fees may be split between being burned (similar to AVAX), and being sent to popular network apps via token holders (similar to Archway).
 * These parameters will be governed by the voting similar to current native Terra voting.
 * Require Landslide Validators to be validators on AVAX mainnet.
+
+# Installation
+Installation
+Ensure that you have Go installed on your computer. You can download and install the latest version of Go from the official website at https://golang.org/dl/.
+
+Clone the LandslideCore repository to your local machine by running the following command:
+
+bash
+Copy code
+git clone https://github.com/ConsiderItDone/LandslideCore.git
+Once you have cloned the repository, navigate to the root directory of the repository in your terminal.
+
+Build the LandslideCore binary by running the following command:
+
+go
+Copy code
+make build
+This will create the landslide binary in the build directory.
+
+Optionally, you can install the LandslideCore binary system-wide by running the following command:
+
+go
+Copy code
+make install
+This will copy the landslide binary to /usr/local/bin, making it accessible from anywhere on your system.
+
+If you encounter any issues during the installation process, please refer to the documentation or open an issue on the LandslideCore repository for assistance.
